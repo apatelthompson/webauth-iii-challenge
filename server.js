@@ -11,7 +11,7 @@ server.use("/api/users", userRouter);
 server.use("/api/auth", authRouter);
 
 server.get("/", (req, res) => {
-  res.status(200).send(`<h2>It's Working!</h2>`);
+  res.status(200).send(`<h2>It's Working!!</h2>`);
 });
 
 module.exports = server;
